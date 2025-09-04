@@ -1,0 +1,9 @@
+services:
+  devcontainer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspaces/fastrender
+      - $HOME/.ssh:/home/vscode/.ssh
+    command: sleep infinity
