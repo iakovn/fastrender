@@ -1,0 +1,11 @@
+{
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.defaultInterpreterPath": "/workspaces/fastrender/.venv/bin/python",
+  "python.testing.pytestPath": "/workspaces/fastrender/.venv/bin/pytest",
+  "python.analysis.typeCheckingMode": "standard"
+}
