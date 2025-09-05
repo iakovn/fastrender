@@ -7,6 +7,6 @@ app = FastAPI(title="fastrender")
 
 
 @app.get("/version", response_model=VersionResponse)
-def get_version():
+def get_version() -> VersionResponse:
     """Return the package version."""
     return VersionResponse(version=__version__)
