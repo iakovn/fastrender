@@ -9,3 +9,5 @@ This dev container is primarily aimed at Python FastAPI server development.
 The dependecies are managed by uv.
 Linting is done with ruff. Type checking is done with mypy.
 Testing is done with pytest.
+
+Always define type annotations on function and method arguments and return values. Run "make check" to check linting and types and "make test" to run the tests.
